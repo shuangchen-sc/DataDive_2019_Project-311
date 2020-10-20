@@ -3,8 +3,7 @@
 In this one-day  “Hackathon" event organized by DataKind & Microsoft, I worked with a team of talented volunteers on a proof-of-concept product for the 311 service of US Cities to automatically categorize 311 complaints into relevant agencies/categories based on citizen-filed text fields.
 
 ## Motivation
-Several types of building infrastructure upgrades can lead to huge energy and value savings, e.g. installing solar panels, improving insulation or replacing boilers. 
-If we can predict the type of improvements for different areas, we can use this information to inform policymakers or local communities to initiate changes. 
+PLACEHOLDER
 
 ## The Data
 * The [NYC 311 Service Requests data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/7ahn-ypff): Full dataset of NYC's 311 service requests covering a wide range of complaints citizens filed. The original data used for the DataDive is a subset for the timeframe of January 2018 - September 2019 (about 4.65 million rows; 41 columns. 2.59gb).
@@ -18,9 +17,9 @@ If we can predict the type of improvements for different areas, we can use this 
 * Lastly, I applied the trained model on a test dataset of 600K records and evaluated the performance of the model. 
 
 ## Deliverables
-* **Interactive Heatmaps**: With the heatmaps, I can easily find zip codes with the most building work done, e.g., many solar works are done at the zipcodes 02131, 02136 & 02126. I can also zoom-in on the map to discover the exact location of smaller hotspot regions or blocks.
+* **Interactive Heatmaps**: PLACEHOLDER
 * **Trend forecasts**: the SARIMA model predicted that: <br>
   - the "window", "solar", "hvac", "gas", "heat pump" & "furnace" categories are likely to increase  <br>
   - while "insulation", "boiler" & "heater" categories are likely to stay the same
-* There is **potential saturation** in the "solar" worktype at several zip codes: on average, one unit of property at several zip code locations have multiple works done over the years. This could indicate saturation of solar panels and is import for predicting which areas may have more solar opportunities.
+* PLACEHOLDER
  
