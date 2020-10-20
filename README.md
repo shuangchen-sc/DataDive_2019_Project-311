@@ -8,7 +8,7 @@ PLACEHOLDER
 ## The Data
 * The [NYC 311 Service Requests data](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/7ahn-ypff): Full dataset of NYC's 311 service requests covering a wide range of complaints citizens filed. The original data used for the DataDive is a subset for the timeframe of January 2018 - September 2019 (about 4.65 million rows; 41 columns. 2.59gb).
 * The [San Francisco 311 Service Requests (July 2008 - October 2019)](https://data.sfgov.org/api/views/vw6y-z8j6/rows.csv?accessType=DOWNLOAD&bom=true&format=true): Supplementary data for another US city - San Fransisco
-* The [Chicago 311 Service Requests (July 2018 - October 2019)](https://data.cityofchicago.org/api/views/v6vf-nfxy/rows.csv?accessType=DOWNLOAD&bom=true&format=true): Supplementary data for another US city - Chicago
+* The [Austin 311 Service Requests (March 2014 - October 2019)](https://data.austintexas.gov/api/views/i26j-ai4z/rows.csv?accessType=DOWNLOAD&bom=true&format=true): Supplementary data for another US city - Austin
 
 ## Approach
 * I first performed EDA on the available text fields that can be used for classification and noted down the challenges with both the X (features) and Y (targets) of this classifcation tasks.
