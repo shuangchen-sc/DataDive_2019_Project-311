@@ -17,9 +17,5 @@ In this one-day  “Hackathon" event organized by DataKind & Microsoft, I worked
 * Lastly, I applied the trained model on a test dataset of 600K records and evaluated the performance of the model. 
 
 ## Deliverables
-* **Interactive Heatmaps**: PLACEHOLDER
-* **Trend forecasts**: the SARIMA model predicted that: <br>
-  - the "window", "solar", "hvac", "gas", "heat pump" & "furnace" categories are likely to increase  <br>
-  - while "insulation", "boiler" & "heater" categories are likely to stay the same
-* PLACEHOLDER
- 
+* **EDA Notebook**: The data profile of each field in the example NYC 311 dataset. Analysis that shows the "Agency" field is more suitable to use as the target for the MVP while "Agency Name" field would require more effort in cleaning before it can be used to train a classifier. Another insight is that some complaint types are specific to a particular agencies and not all complaint types would have sufficient number of records to train a deep learning model.
+* **A MVP CNN Model**: The trained multi=class classification CNN model made very precise prediction on 9 out of the 10 target labels, but its performance on recalls varied widely across the classes.The large sample size of HPD (New York City Department of Housing Preservation and Development) in the training set seems to have biased the model to classify more items in the test set to HPD and casued the high recall and low precision of this particular class. It is also worth noting that the "descriptor" field seems like a pre-set selections of strings dependent on complaint types highly correlate with different agencies. In a case where an end-user can enter free text and 311 would like to generate/auto-populate/suggest labels such as agencies/complaint types, a deep learning model can become more advantageos as the descriptions become less predictable and complex.
